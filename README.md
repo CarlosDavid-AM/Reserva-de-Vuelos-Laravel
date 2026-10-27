@@ -46,9 +46,6 @@ Las respuestas siguen el estándar JSON a través de Eloquent API Resources (`Re
 
 - **Backend**: [PHP 8.3+](https://www.php.net/) / [Laravel 13](https://laravel.com/)
 - **Base de Datos**: SQLite (configurada por defecto; compatible con MySQL y PostgreSQL)
-- **Frontend / Assets**: [Vite](https://vitejs.dev/) y [Tailwind CSS v4](https://tailwindcss.com/)
-- **Testing**: [Pest PHP](https://pestphp.com/)
-- **Calidad de Código**: [Laravel Pint](https://laravel.com/docs/pint)
 
 ---
 
@@ -84,8 +81,8 @@ Este comando ejecuta de forma secuencial: instalación de dependencias PHP, crea
 1. **Clonar el repositorio o abrir la carpeta del proyecto:**
 
     ```bash
-    git clone <URL_DEL_REPOSITORIO> reserva_de_vuelos
-    cd reserva_de_vuelos
+    git clone https://github.com/CarlosDavid-AM/Reserva-de-Vuelos-Laravel.git
+    cd Reserva-de-Vuelos-Laravel-main
     ```
 
 2. **Instalar dependencias de PHP:**
@@ -158,15 +155,7 @@ php artisan serve
 
 Por defecto, la API estará disponible en: **`http://localhost:8000`** (o `http://127.0.0.1:8000`).
 
-### 2. Servidor de Desarrollo Frontend (Vite)
-
-Si trabajas con assets o vistas Blade en tiempo real, en otra terminal ejecuta:
-
-```bash
-npm run dev
-```
-
-### 3. Modo de Desarrollo Concurrente
+### 2. Modo de Desarrollo Concurrente
 
 También puedes usar el script de desarrollo integrado:
 
